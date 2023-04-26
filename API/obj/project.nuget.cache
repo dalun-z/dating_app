@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7eBugih6E7MvGJdOiPFgIEVspuUjRsvTYiO9W/a9g533DFRP0fR9BAaC+DVkJhz850g3UxXVgzg5ccLeC3OWvg==",
+  "dgSpecHash": "Kn2MmTdoViFGYLtePa8ffZR9v8ppVRB7v5yKm8YK+W44AffOxsx/OXRKJ7T41tureiEILbZK0mhv50mSgqGEvw==",
   "success": true,
   "projectFilePath": "/Users/dalunz/Documents/full-stack-project/dating_app/API/API.csproj",
-  "expectedPackageFiles": [
-    "/Users/dalunz/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
-    "/Users/dalunz/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/Users/dalunz/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
-    "/Users/dalunz/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "/Users/dalunz/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "/Users/dalunz/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "/Users/dalunz/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
