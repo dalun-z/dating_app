@@ -1,7 +1,7 @@
 # dating_app
 
-## Framework: 
-- .NET
+## Frameworks: 
+- .NET 7
 - Angular
 - Entity
 - Bootstrap
