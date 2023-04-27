@@ -13,7 +13,8 @@
 - C#
 
 ## Tools:
-- `dotnet -ef`
+- `dotnet tool install --global dotnet-ef --version 7.0.5` [https://www.nuget.org/packages/dotnet-ef/]
+- `dotnet ef` for more usage
 - Used `SQLite` as test databse
 
 
