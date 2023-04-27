@@ -3,7 +3,7 @@
 ## Frameworks: 
 - .NET 7.0
 - Angular
-- Entity
+- EntityFramework
 - Bootstrap
 
 ## Languages:
@@ -11,6 +11,9 @@
 - CSS
 - TypeScript
 - C#
+
+## Tools:
+- `dotnet -ef`
 
 
 # Configuration:
