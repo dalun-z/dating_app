@@ -1,4 +1,4 @@
-# dating_app
+# dating_app Spec
 
 ## Frameworks: 
 - .NET v7.0
@@ -14,21 +14,19 @@
 
 # Back-End Dev
 
+## Configuration:
+- To run the Server: 
+    > `cd API`
+    
+    > `dotnet run` 
+
 ## Tools:
 - `dotnet tool install --global dotnet-ef --version 7.0.5` [https://www.nuget.org/packages/dotnet-ef/]
 - `dotnet ef` for more usage
 - Used `SQLite` as test databse
 
-
 ## Packages/Dependencies:
 - Check `/API/API.csproj` file
-
-
-## Configuration:
-- To run the Server: 
-    > `cd API`
-
-    > `dotnet run` 
 
 ## Issue Encountered:
 - `DefaultConnection` in both `appsettings.Development.json` file and `Program.cs` file has to be 100% same. Otherwise it will cause Database connection error.
@@ -55,7 +53,7 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         - >`npm list -g`
         - >`sudo npm cache clean --f` 
         - >`npm install -g @angular/cli@14`
-        - >`npm config get prefix   // output=/usr/local/lib/node_modules/.npm-i9nnxROI`
+        - >`npm config get prefix    // output=/usr/local/lib/node_modules/.npm-i9nnxROI`
         - >`alias ng="/usr/local/lib/node_modules/.npm-i9nnxROI/bin/ng"`
         - >`ng version`
 
