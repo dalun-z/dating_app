@@ -25,7 +25,7 @@
 
 
 ## Configuration:
-- To run the Back-End : 
+- To run the Server: 
     > `cd API`
 
     > `dotnet run` 
@@ -42,16 +42,21 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
 
 # Front-End Dev
 
-
+## Configuration:
+- To run the dating_app:
+    - > `cd client`
+    - > `ng serve`
 
 ## Issue Encountered:
 - Angular environmnet setup issue:
     - Issue : `zsh: command not found : ng`
     - Fix : 
-        - `npm uninstall -g angular-cli@14`
-        - `npm list -g`
-        - `sudo npm cache clean --f` 
-        - `npm install -g @angular/cli@14`
-        - `ng version`
+        - >`npm uninstall -g angular-cli@14`
+        - >`npm list -g`
+        - >`sudo npm cache clean --f` 
+        - >`npm install -g @angular/cli@14`
+        - >`npm config get prefix   // output=/usr/local/lib/node_modules/.npm-i9nnxROI`
+        - >`alias ng="/usr/local/lib/node_modules/.npm-i9nnxROI/bin/ng"`
+        - >`ng version`
 
     
