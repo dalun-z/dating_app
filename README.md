@@ -1,18 +1,16 @@
 # dating_app Spec
 
-## Frameworks: 
+## Frameworks/RunTime Enviornment: 
 - .NET v7.0
 - Angular v14.2.11
 - EntityFramework
-- Bootstrap
+- Bootstrap v5
+- node v18.16.0
+- npm v9.5.1
 
-## Languages:
-- HTML5
-- CSS
-- TypeScript
-- C#
+-----
 
-# Back-End Dev
+# ***Back-End Dev***
 
 ## Configuration:
 - To run the Server: 
@@ -38,7 +36,9 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
             return await context.Users.ToListAsync();
         }`
 
-# Front-End Dev
+----
+
+# ***Front-End Dev***
 
 ## Configuration:
 - To run the dating_app:
@@ -56,5 +56,9 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         - >`npm config get prefix    // output=/usr/local/lib/node_modules/.npm-i9nnxROI`
         - >`alias ng="/usr/local/lib/node_modules/.npm-i9nnxROI/bin/ng"`
         - >`ng version`
-
+- `ngx-bootstrap` & `bootstrap` dependencies
+    - Issue : ngx-bootstrap has updated to v10 which is not compatiable with angular v14. So Either `ng add ngx-bootstrap` or `npm install ngx-bootstrap --save` won't work 
+    - Fix :
+        - > `npm install ngx-bootstrap@9`
+        - > `npm install bootstrap@5`
     

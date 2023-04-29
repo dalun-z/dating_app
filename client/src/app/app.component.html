@@ -1,1 +1,9 @@
 <h1>{{title}}</h1>
+
+<ul>
+    <!-- `users` in *ngFor is from app.component.ts/AppComponent.users -->
+    <li *ngFor="let user of users">
+        <!-- match the elements in API/Entities/AppUser.cs :: Id->id; UserName->userName -->
+        {{user.id}} - {{user.userName}} 
+    </li>
+</ul>
