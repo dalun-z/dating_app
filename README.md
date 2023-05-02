@@ -45,6 +45,9 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
     - > `cd client`
     - > `ng serve`
 
+## HTTPS Certificate on Angular
+- `~/client/ssl`
+
 ## Issue Encountered:
 - Angular environmnet setup issue:
     - Issue : `zsh: command not found : ng`
