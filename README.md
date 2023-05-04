@@ -27,8 +27,8 @@
     > `>SQLite`
 
 ## Tools:
-- `dotnet tool install --global dotnet-ef --version 7.0.5` [https://www.nuget.org/packages/dotnet-ef/]
-- `dotnet ef` for more usage
+- `dotnet tool install --global dotnet-ef --version 7.0.5`
+- [dotnet-ef](https://www.nuget.org/packages/dotnet-ef/)
 - Used `SQLite` as test databse
 
 ## Packages/Dependencies:
