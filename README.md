@@ -17,6 +17,10 @@
     > `cd API`
     
     > `dotnet run` 
+    
+    or
+
+    > `dotnet watch | dotnet watch --no-hot-reload`
 
 ## Tools:
 - `dotnet tool install --global dotnet-ef --version 7.0.5` [https://www.nuget.org/packages/dotnet-ef/]
@@ -25,6 +29,10 @@
 
 ## Packages/Dependencies:
 - Check `/API/API.csproj` file
+
+## Update SQLite Database
+- Update in migration folder `dotnet ef migrations add UserPasswordAdded`
+- Update database `dotnet ef database update`
 
 ## Issue Encountered:
 - `DefaultConnection` in both `appsettings.Development.json` file and `Program.cs` file has to be 100% same. Otherwise it will cause Database connection error.
