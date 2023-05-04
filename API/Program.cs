@@ -18,7 +18,7 @@ builder.Services.AddIdentityServices(builder.Configuration);        // ~/API/Ext
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200")); // hear back from Client
+app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200")); // hear back from Client
 
 app.UseAuthentication();    // ask if user have valid token
 app.UseAuthorization();     // got token, then decide what the user can do

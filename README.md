@@ -21,6 +21,10 @@
     or
 
     > `dotnet watch | dotnet watch --no-hot-reload`
+- To run the Database:
+    > `cmd` + `p`
+    
+    > `>SQLite`
 
 ## Tools:
 - `dotnet tool install --global dotnet-ef --version 7.0.5` [https://www.nuget.org/packages/dotnet-ef/]
