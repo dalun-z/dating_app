@@ -21,7 +21,7 @@
     or
 
     > `dotnet watch | dotnet watch --no-hot-reload`
-- To run the Database:
+- To run the Database in VScode:
     > `cmd` + `p`
     
     > `>SQLite`
@@ -86,3 +86,4 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         - > `npm install bootstrap@5`
 - `ngx-toastr` compile error
     - Fix : `npm install ngx-toastr@~14.0.0`
+- use `pipe()` method to modify Observable

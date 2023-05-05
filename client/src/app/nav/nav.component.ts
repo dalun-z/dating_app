@@ -22,7 +22,7 @@ export class NavComponent implements OnInit {
     // we need to use 'subscribe' method since it's return an observable of the response
     this.accountService.login(this.model).subscribe({
       next: () => this.router.navigateByUrl('/members'),  // go to page after user login
-      error: error => this.toastr.error(error.error)
+      // error: error => this.toastr.error(error.error)
     })
   }
 
