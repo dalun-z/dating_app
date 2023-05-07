@@ -1,4 +1,4 @@
-# dating_app Spec
+# A Dating App 
 
 ## Frameworks/RunTime Enviornment: 
 - .NET v7.0
@@ -65,6 +65,11 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
 - [@ngx-toastr ](https://github.com/scttcper/ngx-toastr)
 - [bootswatch](https://bootswatch.com/)
 
+## Features:
+- Users are able to view, like, send messages to other users on the web app
+- Update profile page(Description, City, Age, Country, Photos and etc..)
+- Users will be alert if the user accidently click on other tab or heading to other website after made changes in `edit` page 
+- 
 
 ## Issue Encountered:
 - Angular environmnet setup issue:
