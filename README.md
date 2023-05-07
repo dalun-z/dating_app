@@ -64,6 +64,7 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
 - [@ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)
 - [@ngx-toastr ](https://github.com/scttcper/ngx-toastr)
 - [bootswatch](https://bootswatch.com/)
+- [@ngx-gallery](https://www.npmjs.com/package/@kolkov/ngx-gallery)
 
 ## Features:
 - Users are able to view, like, send messages to other users on the web app
