@@ -3,7 +3,7 @@
 ## Frameworks/RunTime Enviornment: 
 - .NET v7.0
 - Angular v14.2.11
-- EntityFramework
+- Entity Framework
 - Bootstrap v5
 - node v18.16.0
 - npm v9.5.1
@@ -37,6 +37,7 @@
 ## Update SQLite Database
 - Update in migration folder `dotnet ef migrations add UserPasswordAdded`
 - Update database `dotnet ef database update`
+- Remove added migration folder BEFORE update database `dotnet ef migrations remove`
 
 ## Issue Encountered:
 - `DefaultConnection` in both `appsettings.Development.json` file and `Program.cs` file has to be 100% same. Otherwise it will cause Database connection error.
