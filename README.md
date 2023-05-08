@@ -3,7 +3,7 @@
 ## Frameworks/RunTime Enviornment: 
 - .NET v7.0
 - Angular v14.2.11
-- Entity Framework
+- Entity Framework Core 6.0
 - Bootstrap v5
 - node v18.16.0
 - npm v9.5.1
