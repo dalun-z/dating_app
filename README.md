@@ -26,6 +26,9 @@
     
     > `>SQLite`
 
+## Features:
+- Server will receive updated user information into database and also return to the web app
+
 ## Tools:
 - `dotnet tool install --global dotnet-ef --version 7.0.5`
 - [dotnet-ef](https://www.nuget.org/packages/dotnet-ef/)
@@ -66,12 +69,14 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
 - [@ngx-toastr ](https://github.com/scttcper/ngx-toastr)
 - [bootswatch](https://bootswatch.com/)
 - [@ngx-gallery](https://www.npmjs.com/package/@kolkov/ngx-gallery)
+- [@ngx-spinner](https://www.npmjs.com/package/ngx-spinner)
 
 ## Features:
 - Users are able to view, like, send messages to other users on the web app
 - Update profile page(Description, City, Age, Country, Photos and etc..)
 - Users will be alert if the user accidently click on other tab or heading to other website after made changes in `edit` page 
-- 
+- Alert for user to nitify them if they made any changes to their profile or any error
+- `loading` feature in web app
 
 ## Issue Encountered:
 - Angular environmnet setup issue:
@@ -94,3 +99,9 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
 - `ngx-toastr` compile error
     - Fix : `npm install ngx-toastr@~14.0.0`
 - use `pipe()` method to modify Observable
+- Angualar package supporting current npm version but hasn't released the update yet
+    After `npm install ngx-spinner`
+    - Issue: 
+        - `npm ERR! code ERESOLVE`
+        - `npm ERR! ERESOLVE unable to resolve dependency tree`
+    - Fix : `npm install ngx-spinner --legacy-peer-deps`
