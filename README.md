@@ -69,14 +69,14 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
 - [@ngx-toastr ](https://github.com/scttcper/ngx-toastr)
 - [bootswatch](https://bootswatch.com/)
 - [@ngx-gallery](https://www.npmjs.com/package/@kolkov/ngx-gallery)
-- [@ngx-spinner](https://www.npmjs.com/package/ngx-spinner)
+- ~~[@ngx-spinner](https://www.npmjs.com/package/ngx-spinner)~~
 
 ## Features:
 - Users are able to view, like, send messages to other users on the web app
 - Update profile page(Description, City, Age, Country, Photos and etc..)
 - Users will be alert if the user accidently click on other tab or heading to other website after made changes in `edit` page 
 - Alert for user to nitify them if they made any changes to their profile or any error
-- `loading` feature in web app
+- ~~`loading` feature in web app~~
 
 ## Issue Encountered:
 - Angular environmnet setup issue:
