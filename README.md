@@ -28,11 +28,13 @@
 
 ## Features:
 - Server will receive updated user information into database and also return to the web app
+- Photo uploading cloud service `Cloudinary`
 
 ## Tools:
 - `dotnet tool install --global dotnet-ef --version 7.0.5`
 - [dotnet-ef](https://www.nuget.org/packages/dotnet-ef/)
 - Used `SQLite` as test databse
+- `Cloudinary` cloud service
 
 ## Packages/Dependencies:
 - Check `/API/API.csproj` file
