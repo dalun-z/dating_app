@@ -29,6 +29,7 @@
 ## Features:
 - Server will receive updated user information into database and also return to the web app
 - Photo uploading cloud service `Cloudinary`
+- While adding new photos, server could return the correct API route with the user name
 
 ## Tools:
 - `dotnet tool install --global dotnet-ef --version 7.0.5`
