@@ -73,6 +73,7 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
 - [bootswatch](https://bootswatch.com/)
 - [@ngx-gallery](https://www.npmjs.com/package/@kolkov/ngx-gallery)
 - ~~[@ngx-spinner](https://www.npmjs.com/package/ngx-spinner)~~
+- [ng2-file-upload@2.0.0-3](https://www.npmjs.com/package/ng2-file-upload)
 
 ## Features:
 - Users are able to view, like, send messages to other users on the web app
@@ -80,6 +81,7 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
 - Users will be alert if the user accidently click on other tab or heading to other website after made changes in `edit` page 
 - Alert for user to nitify them if they made any changes to their profile or any error
 - ~~`loading` feature in web app~~
+- File/photo uploader for user editing their profile; also showing the uploading progress
 
 ## Issue Encountered:
 - Angular environmnet setup issue:
