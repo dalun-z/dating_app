@@ -76,6 +76,7 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
 - ~~[@ngx-spinner](https://www.npmjs.com/package/ngx-spinner)~~
 - [ng2-file-upload@2.0.0-3](https://www.npmjs.com/package/ng2-file-upload)
 - [@ngx-datepicker](https://valor-software.com/ngx-bootstrap/#/components/datepicker?tab=overview)
+- [@ngx-pagination](https://valor-software.com/ngx-bootstrap/#/components/pagination?tab=overview#custom-links-content)
 
 ## Features:
 - Users are able to view, like, send messages to other users on the web app
