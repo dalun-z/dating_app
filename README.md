@@ -31,6 +31,7 @@
 - Photo uploading cloud service `Cloudinary`
 - While adding new photos, server could return the correct API route with the user name
 - Added Pagination query feature to sort users on the home page according to what category that user would like to select to be displayed on the `match` page
+-  `LastActive` user feature  
 
 ## Tools:
 - `dotnet tool install --global dotnet-ef --version 7.0.5`
