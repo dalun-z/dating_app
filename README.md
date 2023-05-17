@@ -9,6 +9,7 @@
 - npm v9.5.1
 
 -----
+----
 
 # ***Back-End Dev***
 
@@ -57,6 +58,7 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
             return await context.Users.ToListAsync();
         }`
 
+----
 ----
 
 # ***Front-End Dev***
@@ -115,3 +117,9 @@ Usage: `public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         - `npm ERR! code ERESOLVE`
         - `npm ERR! ERESOLVE unable to resolve dependency tree`
     - Fix : `npm install ngx-spinner --legacy-peer-deps`
+
+___
+---
+___
+
+# Add-on Features Section
